@@ -1,0 +1,59 @@
+body{overflow: auto;}
+/*about page*/
+.bread-holder .breadcrumb{
+background-color:#cccccc;
+color:rgb(30,30,30);
+}
+.bread-holder .breadcrumb li{color:rgb(30,30,30);}
+.breadcrumb > li + li:before {
+    color: #000;
+}
+.breadcrumb a {
+    color: #1b0d53;
+    text-decoration: none;
+}
+.breadcrumb a:hover{
+    text-decoration:underline;
+}
+
+.about-holder{overflow: hidden;}
+.about-holder h1{margin-bottom: 10px;}
+.about-holder img{
+    width: 80%;
+    border-radius: 5px;
+    border: 0.5px solid rgb(138, 138, 138);
+}
+.about-holder p{padding:20px;width: 80%; margin: auto;}
+.about-res{margin: 30px 0;overflow: hidden;}
+.about-res .role{margin-bottom: 35px;}
+
+.aboutCeo{overflow: hidden;}
+.aboutCeo img{width: 90%;}
+.ceContact{margin-top: 50px;}
+@media (max-width:768px){
+    .about-holder img,.about-holder p{
+        width: 90%;
+    }
+    .aboutCeo img{width: 70%;}
+    .aboutCeo .ceContact{text-align: center;}
+}
+
+/*FAQ*/
+.qAndA .panel{
+  border: none;
+   
+}
+.qAndA .panel-default > .panel-heading{overflow: hidden;cursor: pointer;}
+.qAndA .panel-default > .panel-heading h4{width: 90%;float: left;}
+.qAndA .panel-default > .panel-heading::after{
+    font-family: "Glyphicons Halflings";
+    content: "\e114";
+    float: right;
+    cursor: pointer;
+}
+.qAndA .panel-default > .panel-heading.collapsed::after{
+    font-family: "Glyphicons Halflings";
+    content: "\e080";
+    float: right;
+    cursor: pointer;
+}

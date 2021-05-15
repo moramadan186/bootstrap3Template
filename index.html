@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/glass-effect.css">
+  <link rel="stylesheet" href="css/default-theme.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <!--animate on scroll link-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://kit.fontawesome.com/4a7b5fca02.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <section class="tools">
+    <div class="toolList">
+      <ul class="colorList list-unstyled">
+        <li path="css/default-theme.css" style="background-color: rgb(30,30,30);"></li>
+        <li path="css/kohal-theme.css" style="background-color: rgb(40,44,52);"></li>
+        <li path="css/white-theme.css"
+          style="background-color: rgb(255, 255, 255); border: 0.1px solid rgb(173, 173, 173);"></li>
+      </ul>
+    </div>
+    <i class="fas fa-grip-lines-vertical fa-3x"></i>
+  </section>
+  <button id="goUp"><i class="fas fa-arrow-up"></i></button>
+ 
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a  class="navbar-brand hvr-grow" href="index.html">MO <span>Ramadan</span></a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="FAQ.html">FAQ</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">Skills<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Front End Technologies And Languages</a></li>
+              <li><a href="#">HTML5</a></li>
+              <li><a href="#">JavaScript </a></li>
+              <li><a href="#">Document Object Model </a></li>
+              <li><a href="#">Browser Object Model </a></li>
+              <li><a href="#">JQuery </a></li>
+              <li><a href="#">JSON </a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Programming Skills</a></li>
+              <li><a href="#">C++ </a></li>
+              <li><a href="#">JAVA </a></li>
+              <li><a href="#">Object Oriented Programming</a></li>
+              <li><a href="#">Algorithms</a></li>
+              <li><a href="#">SQL Language </a></li>
+              <li><a href="#">Databases </a></li>
+            </ul>
+          </li>
+          <li><a href="#">Tools And IDES</a></li>
+        </ul>
+        <!--<form class="navbar-form navbar-left">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                  </div>
+                  <button type="submit" class="btn btn-default">Submit</button>
+                </form> -->
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+
+  <div class="slider">
+    <div id="theSlider" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators ">
+        <li data-target="#theSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#theSlider" data-slide-to="1"></li>
+        <li data-target="#theSlider" data-slide-to="2"></li>
+        <li data-target="#theSlider" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="images/01.jpg" alt="...">
+          <div class="carousel-caption hidden-xs">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ut voluptate at reprehenderit, corporis
+            autem molestiae nobis doloremque? Quas ipsum illo saepe quae commodi deleniti atque dolores, eaque ullam at.
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/03.jpg" alt="...">
+          <div class="carousel-caption hidden-xs">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus tempora, labore deserunt fuga assumenda
+            molestiae. Obcaecati unde voluptate qui hic corporis eveniet sunt temporibus error laudantium, autem
+            excepturi
+            rerum commodi!
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/04.jpg" alt="...">
+          <div class="carousel-caption hidden-xs">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae laboriosam consequuntur, laborum voluptatum
+            soluta ab. Asperiores, ut accusantium? Ipsa odio nesciunt rerum mollitia. Possimus ab facilis voluptatum sit
+            amet maiores!
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/05.jpg" alt="...">
+          <div class="carousel-caption hidden-xs">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, aperiam. Iusto iste illo dolores quae.
+            Quo
+            ad, quidem numquam blanditiis cum adipisci error, magni minima, suscipit consectetur ipsa laudantium
+            architecto.
+          </div>
+        </div>
+      </div>
+      <!-- Controls -->
+      <a class="left carousel-control" href="#theSlider" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#theSlider" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+
+
+
+  <section class="aboutSec text-center " data-aos="fade-up">
+    <div class="container ">
+      <h3>This is About <span>Sec</span></h3>
+      <p class="">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet
+        fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At
+        nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere.
+        Cras mattis iudicium purus sit amet fermentum.
+      </p>
+    </div>
+  </section>
+
+
+
+
+  <section id="features" class="features text-center" data-aos="fade-up">
+    <div class="container">
+      <h3>Features</h3>
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 " data-aos="fade-right">
+          <div class="divTemp">
+            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            <h4>100% responsive</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae expedita repellendus nostrum quae ut
+              eius totam ducimus aliquid necessitatibus molestiae minus officiis quas, harum, maxime, porro quis
+              voluptatum distinctio dolor?</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 " data-aos="fade-right">
+          <div class="divTemp">
+            <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+            <h4>Retina ready</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae expedita repellendus nostrum quae ut
+              eius totam ducimus aliquid necessitatibus molestiae minus officiis quas, harum, maxime, porro quis
+              voluptatum distinctio dolor?</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 " data-aos="fade-left">
+          <div class="divTemp">
+            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+            <h4>Awesome Display</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae expedita repellendus nostrum quae ut
+              eius totam ducimus aliquid necessitatibus molestiae minus officiis quas, harum, maxime, porro quis
+              voluptatum distinctio dolor?</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 " data-aos="fade-left">
+          <div class="divTemp">
+            <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+            <h4>Well documented</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae expedita repellendus nostrum quae ut
+              eius totam ducimus aliquid necessitatibus molestiae minus officiis quas, harum, maxime, porro quis
+              voluptatum distinctio dolor?</p>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </section>
+
+
+
+  <section class="testimonials text-center" data-aos="fade-up">
+    <div class="container">
+      <h3>Customer opinions</h3>
+      <div id="theTesti" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquam tenetur quibusdam, adipisci sit
+              accusamus dolorem recusandae aperiam qui minus mollitia quod quae officia aspernatur minima at doloremque.
+              Earum, nostrum?</p>
+            <span>Mohamed</span>
+          </div>
+          <div class="item">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquam tenetur quibusdam, adipisci sit
+              accusamus dolorem recusandae aperiam qui minus mollitia quod quae officia aspernatur minima at doloremque.
+              Earum, nostrum?</p>
+            <span>Ahmed</span>
+          </div>
+          <div class="item">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquam tenetur quibusdam, adipisci sit
+              accusamus dolorem recusandae aperiam qui minus mollitia quod quae officia aspernatur minima at doloremque.
+              Earum, nostrum?</p>
+            <span>Ali</span>
+          </div>
+          <div class="item">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dignissimos repudiandae quae blanditiis
+              porro ullam soluta distinctio laborum quas. Pariatur fuga corporis, iure nisi eos quas veritatis. Neque,
+              dolore tempora.</p>
+            <span>Mostafa</span>
+          </div>
+        </div>
+        <ol class="carousel-indicators ">
+          <li data-target="#theTesti" data-slide-to="0" class="active"><img src="images/avatar2.png" alt=""></li>
+          <li data-target="#theTesti" data-slide-to="1"><img src="images/avatar5.png" alt=""></li>
+          <li data-target="#theTesti" data-slide-to="2"><img src="images/avatar3.png" alt=""></li>
+          <li data-target="#theTesti" data-slide-to="3"><img src="images/avatar6.png" alt=""></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="prices text-center">
+    <div class="container">
+      <h3>prices</h3>
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0"data-aos="slide-right">
+          <div class="priceTemp">
+            <h4 class="text-primary">hosting</h4>
+            <p class="center-block"><sup>$</sup>40</p>
+            <ul class="list-unstyled">
+              <li>Space : 30GB</li>
+              <li>Emails : 20</li>
+              <li>IPs : 2 IP</li>
+              <li>Databases : 10</li>
+              <li>Ftp Accounts : 5</li>
+            </ul>
+            <a href="" class="btn btn-primary">Order Now</a>
+
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0 " data-aos="slide-left">
+          <div class="priceTemp">
+            <h4 class="text-success">Vps</h4>
+            <p class="center-block"><sup>$</sup>50</p>
+            <ul class="list-unstyled">
+              <li>Space : 30GB</li>
+              <li>Emails : 20</li>
+              <li>IPs : 2 IP</li>
+              <li>Databases : 10</li>
+              <li>Ftp Accounts : 5</li>
+            </ul>
+            <a href="" class="btn btn-success">Order Now</a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0" data-aos="slide-right">
+          <div class="priceTemp">
+            <h4 class="text-info">Dedicated</h4>
+            <p class="center-block"><sup>$</sup>60</p>
+            <ul class="list-unstyled">
+              <li>Space : 30GB</li>
+              <li>Emails : 20</li>
+              <li>IPs : 2 IP</li>
+              <li>Databases : 10</li>
+              <li>Ftp Accounts : 5</li>
+            </ul>
+            <a href="" class="btn btn-info">Order Now</a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0" data-aos="slide-left">
+          <div class="priceTemp">
+            <h4 class="text-danger">Cloud</h4>
+            <p class="center-block"><sup>$</sup>80</p>
+            <ul class="list-unstyled">
+              <li>Space : 30GB</li>
+              <li>Emails : 20</li>
+              <li>IPs : 2 IP</li>
+              <li>Databases : 10</li>
+              <li>Ftp Accounts : 5</li>
+            </ul>
+            <a href="" class="btn btn-danger">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="team text-center ">
+    <div class="cover">
+      <div class="container">
+        <h1>Our Team</h1>
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="person">
+              <img src="images/bill.jpg" alt="" class="img-circle" data-aos="slide-right">
+              <h4>Bill Gates</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quos enim, excepturi.</p>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-linkedin-in"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-youtube"></i>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="person">
+              <img src="images/mark.jpg" alt="" class="img-circle" data-aos="zoom-out">
+              <h4>Mark Zuckerberg</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quos enim, excepturi.</p>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-linkedin-in"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-youtube"></i>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="person">
+              <img src="images/steve.jpg" alt="" class="img-circle" data-aos="zoom-out">
+              <h4>Steve Jobs</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quos enim, excepturi.</p>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-linkedin-in"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-youtube"></i>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="person">
+              <img src="images/jeff.jpg" alt="" class="img-circle" data-aos="slide-left">
+              <h4>Jeff Bezos</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quos enim, excepturi.</p>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-linkedin-in"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-youtube"></i>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="subscribe text-center" data-aos="fade-up">
+    <div class="container">
+      <div class="subTemp">
+        <h3>Keep in Touch</h3>
+        <p>Subscribe to recieve our news to keep up to date</p>
+        <form action="" class="form-inline">
+          <input type="text" name="" id="" class="form-control" placeholder="Type your email">
+          <button class="btn btn-danger">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <div class="SAndF">
+    <section class="statistics text-center">
+      <div class="cover">
+        <div class="container">
+          <h1>Statistics</h1>
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div class="staTemp">
+                <i class="fas fa-users fa-4x"></i>
+                <p class="counter" data-target="10200">0</p>
+                <span>users</span>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="staTemp">
+                <i class="fas fa-comments fa-4x"></i>
+                <p class="counter" data-target="26300">0</p>
+                <span>comments</span>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="staTemp">
+                <i class="far fa-check-circle fa-4x"></i>
+                <p class="counter" data-target="3400">0</p>
+                <span>projects</span>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="staTemp">
+                <i class="far fa-calendar-check fa-4x"></i>
+                <p class="counter" data-target="90123">0</p>
+                <span>archived</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills">
+      <div class="container">
+        <h2 class="text-center"> Skills</h2>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="progress" data-aos="">
+              <div class="progress-bar " style="width: 80%;" data-aos="slide-left">test</div>
+            </div>
+            <div class="progress">
+              <div data-aos="slide-right" class="progress-bar progress-bar-success progress-bar-striped active "
+                style="width: 70%;">test</div>
+            </div>
+            <div class="progress">
+              <div data-aos="slide-left" class="progress-bar progress-bar-info " ARIA-VALUE style="width: 90%;">test
+              </div>
+            </div>
+            <div class="progress">
+              <div data-aos="slide-right" class="progress-bar progress-bar-warning " style="width: 60%;">test</div>
+            </div>
+          </div>
+          <div data-aos="fade-up" class="col-md-6 col-md-offset-1">
+            <h4>About the team</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit,
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat beatae nulla tenetur repellendus
+              mollitia, rerum tempore fugit quasi illum praesentium sunt nostrum magni, perferendis omnis soluta
+              corrupti consequatur hic deserunt!</p>
+            <button class="btn btn-success">Talk with us</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="feedback">
+      <div class="cover">
+        <div class="container text-center">
+          <div class="someText">
+            <i class="far fa-comment fa-5x"></i>
+            <h2>your feedback</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia distinctio nam fuga.</p>
+          </div>
+          <div class="row">
+            <form action="" class="form">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <input placeholder="Enter your name" type="text" class="form-control input-lg">
+                </div>
+                <div class="form-group">
+                  <input placeholder="Enter your email" type="text" class="form-control input-lg">
+                </div>
+                <div class="form-group">
+                  <input placeholder="Feedback about" type="text" class="form-control input-lg">
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <textarea placeholder="Your message" class="form-control" name="" id="" cols="30" rows="4"></textarea>
+                </div>
+                <button class="btn btn-lg">Send your feedback</button>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-6">
+          <h3 class="text-center">Sitemap</h3>
+          <div class="siteMap">
+            <div class="uls">
+              <ul class="list-unstyled">
+                <li>Home</li>
+                <li>About</li>
+                <li>Company</li>
+                <li>Code</li>
+                <li>Design</li>
+                <li>Host</li>
+                <li>Solution</li>
+                <li>SiteMap</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+            <div class="links text-center" style="color: aqua;">
+              <i class="fa fa-facebook fa-2x"></i>
+              <i class="fa fa-twitter fa-2x"></i>
+              <i class="fa fa-youtube fa-2x"></i>
+              <i class="fa fa-google fa-2x"></i>
+              <i class="fa fa-linkedin fa-2x"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <!-- <div class="media">
+            <img class=" pull-left" src="images/avatar2.png" alt="Generic placeholder image">
+            <div class="media-body">
+              <h4 class="media-heading">Media heading</h4>
+              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+            </div>
+          </div> -->
+          <h3 class="text-center">Articles</h3>
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="images/avatar2.png" alt="...">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Media heading</h4>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque at amet.
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="images/avatar3.png" alt="...">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Media heading</h4>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque at amet.
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="images/avatar5.png" alt="...">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Media heading</h4>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque at amet.
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="ourWork text-center">
+            <h3 class="text-center">Our work</h3>
+            <img data-aos="slide-right" src="images/work4.jpg" class="img-thumbnail" alt="">
+            <img data-aos="slide-left" src="images/work1.png" class="img-thumbnail" alt="">
+            <img data-aos="slide-right" src="images/work2.png" class="img-thumbnail" alt="">
+            <img data-aos="slide-left" src="images/work3.0.jpg" class="img-thumbnail" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="text-center" style="color: grey;">copyright @ the template name</div>
+    </div>
+
+  </section>
+  <div class="loading-s">
+    <div class="holder">
+      <div class="card">
+        <div class="card__text">
+          <div class="lds-ripple">
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script>
+      AOS.init({
+        offset: 120, 
+        delay: 0,
+        duration: 600,
+      });
+    
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+body,.navbar-inverse,
+.dropdown-menu,
+.subscribe input[type=text],
+.skills,.skills .progress{
+    background-color:rgb(30,30,30);
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.subscribe button,.feedback button{
+    color: #000;
+    background-color: #ffd23d;
+}
+.navbar-inverse .navbar-brand span,
+.aboutSec span,
+.features .divTemp:hover span,
+.statistics .staTemp:hover i{
+    color: #ffc300;
+}
+.navbar-inverse .navbar-nav > li > a,
+.dropdown-menu > li > a,
+.prices .priceTemp,
+.team .cover h1,
+.team .person h4,
+.team .person i,
+.statistics,
+.statistics .staTemp p,
+.prices .priceTemp h4
+{
+    color: rgb(230, 230, 230);
+}
+.dropdown-menu li:first-child a ,
+.dropdown-menu li:nth-child(9) a,
+.dropdown-menu li:first-child a:hover , .dropdown-menu li:nth-child(9) a:hover,
+.features .divTemp p,
+.aboutSec p,
+.prices .priceTemp p,
+.subscribe p,
+.footer .links i,
+.footer .uls li,
+.footer .media  .media-body 
+{color: rgb(138, 138, 138);}
+
+.feedback button:hover,
+.subscribe button:hover
+{background-color: #ffc300;color: #000;}
+
+.features .divTemp span,
+.testimonials .item span,
+.statistics i
+{color:#ffd23d;}
+
+.features .divTemp h4,
+.subscribe input[type=text],
+.team .person p,
+.statistics .staTemp span,
+.feedback
+{color: rgb(195, 195, 195);}
+
+.subscribe input[type=text],
+.skills .progress,
+.feedback input[type="text"] , 
+.feedback textarea
+{border: 1px solid rgb(138, 138, 138);}
+
+.prices .priceTemp p,
+.tools .toolList{background-color: rgb(230, 230, 230);}
+
+
+
+
+
+
+
+
+.dropdown-menu {border-top: 3px solid #ffd23d;}
+.dropdown-menu .divider {background-color: #000;}
+@media (max-width:768px){
+    .navbar-fixed-top .navbar-collapse{
+        background-color: rgb(17, 17, 17);
+    }
+}
+.slider .carousel-caption {background-color: rgba(82, 82, 82, 0.151);}
+.slider .carousel-indicators .active {background-color: #ffc300;}
+.prices .priceTemp {background:linear-gradient(-45deg, #4ea3ec, #9a4eff);}
+.prices .priceTemp::after{background: rgba(255, 255, 255, .1);}
+.cover{background-color: rgba(0, 0, 0, 0.438);}
+.subscribe button{border: 1px solid #dfac06;}
+.feedback input[type="text"] , .feedback textarea{background-color: rgba(195, 195, 195, 0.082);}
+.footer .ourWork .img-thumbnail{border: 0.5px solid rgb(138, 138, 138);}
+.tools i{color: #b38900}
+
+
+
+h1,h2,h3,h4,h5{color: rgb(195, 195, 195);}
+p{color: rgb(138, 138, 138);}
+
+#goUp{
+    background-color: #dfac06;
+    color:rgb(30,30,30);
+}
+
+.about-res .role i{color:#dfac06 ;}
+/*FAQ*/
+.qAndA .panel-default > .panel-heading{background-color:#ffd23d ;
+    border-bottom: none;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+
+}
+
+
+
+
+
+
+
+
+
+
+

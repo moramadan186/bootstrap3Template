@@ -1,0 +1,133 @@
+body,.navbar-inverse,
+.dropdown-menu,
+.subscribe input[type=text],
+.skills,.skills .progress{
+    background-color:rgb(240, 240, 240);
+}
+.dropdown-menu,
+.navbar-inverse{background-color: #293A44;}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.subscribe button,.feedback button{
+    color: #000;
+    background-color: #ff4a3d;
+}
+.navbar-inverse .navbar-brand span,
+.aboutSec span,
+.features .divTemp:hover span,
+.statistics .staTemp:hover i{
+    color: #ff1505;
+}
+.navbar-inverse .navbar-nav > li > a,
+.dropdown-menu > li > a,
+.prices .priceTemp,
+.team .cover h1,
+.team .person h4,
+.team .person i,
+.statistics,
+.statistics .staTemp p,
+.prices .priceTemp h4
+{
+    color: rgb(230, 230, 230);
+}
+.dropdown-menu li:first-child a ,
+.dropdown-menu li:nth-child(9) a,
+.dropdown-menu li:first-child a:hover , .dropdown-menu li:nth-child(9) a:hover,
+.features .divTemp p,
+.aboutSec p,
+.prices .priceTemp p,
+.subscribe p,
+.footer .links i,
+.footer .uls li,
+.footer .media  .media-body 
+{color: rgb(88, 88, 88);}
+
+.feedback button:hover,
+.subscribe button:hover
+{background-color: #ff1505;color: #000;}
+
+.features .divTemp span,
+.testimonials .item span,
+.statistics i
+{color:#ff4a3d;}
+
+.features .divTemp h4,
+.subscribe input[type=text],
+.team .person p,
+.statistics .staTemp span,
+.feedback
+{color: rgb(196, 196, 196);}
+
+.subscribe input[type=text],
+.skills .progress,
+.feedback input[type="text"] , 
+.feedback textarea
+{border: 1px solid rgb(138, 138, 138);}
+
+.prices .priceTemp p,
+.tools .toolList{background-color: rgb(230, 230, 230);}
+
+
+
+
+
+
+
+
+.dropdown-menu {border-top: 3px solid #ff4a3d;}
+.dropdown-menu .divider {background-color: #000;}
+@media (max-width:768px){
+    .navbar-fixed-top .navbar-collapse{
+        background-color: #293A44;
+    }
+}
+.slider .carousel-caption {background-color: rgba(82, 82, 82, 0.151);}
+.slider .carousel-indicators .active {background-color: #ff1505;}
+.prices .priceTemp {background:linear-gradient(-45deg, #4ea3ec, #9a4eff);}
+.prices .priceTemp::after{background: rgba(255, 255, 255, .1);}
+.cover{background-color: rgba(0, 0, 0, 0.438);}
+.subscribe button{border: 1px solid #ff1505;}
+.feedback input[type="text"] , .feedback textarea{background-color: rgba(195, 195, 195, 0.082);}
+.tools i{color: #ff4a3d}
+.features .divTemp h4{color: rgb(104, 104, 104);}
+.statistics h1 {color: rgb(230, 230, 230);}
+
+h1,h2,h3,h4,h5{color: rgb(63,63,63);}
+p{color: rgb(88, 88, 88);}
+#goUp{
+    background-color: #ff4a3d;
+    color:white;
+}
+
+.breadcrumb{background-color: rgb(241, 16, 16);}
+.aboutCeo {background-color: rgb(230, 230, 230);}
+
+.footer{background: rgb(30,30,30);}
+.footer .links i,
+.footer .uls li,
+.footer .media  .media-body 
+{color: rgb(138, 138, 138);}
+.footer h3,.footer h4{color: rgb(195, 195, 195);}
+.footer .ourWork .img-thumbnail{border: 0.5px solid rgb(138, 138, 138); }
+.about-res .role i{color:#ff4a3d ;}
+/*FAQ*/
+.qAndA .panel-default > .panel-heading{
+    background-color:#ff4a3d ;
+    color:rgb(228, 228, 228);
+    border-bottom: none;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+
+}
+
+
+
+
+
